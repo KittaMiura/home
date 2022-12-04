@@ -13,3 +13,100 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
+ @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffff54;
+  height: 130px;
+  border-top-color: black;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+
+.pedro5th {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.ul__wrapper {
+  display: table;
+  margin: 0 auto;
+  padding: 0 ;
+  width: 80%;
+  text-align: center;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  min-width: 90px;
+}
+
+body {
+  background-color: #54ff9e;
+}
+
+.content {
+  background-color: #0088cc;
+  width: 670px;
+  margin: 70px 0px 0px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 0px 0px 0px;
+}
+
+a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 5px;
+}
+
+nav li:hover {
+  color: #4d4d4d;
+  border-bottom: 3px solid #4d4d4d;
+}
+
+p.post {
+  width: 650px;
+  padding: 0px 0% 0px 0%;
+  margin: 65px 0px 150px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 13px;
+  font-family: "Arial";
+  line-height: 185%;
+  text-align: justify;
+  background-color: #ff7733;
+}
+
+footer {
+  height: 70px;
+  border-top-color: black;
+  border-top: solid;
+  border-top-width: 1px;
+  background-color: #7436b3;
+}
+
+.footer {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 11px;
+  font-family: 'Arial';
+  text-align: center;
+}
