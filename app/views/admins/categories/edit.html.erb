@@ -1,0 +1,14 @@
+<div class="content">
+    <h3>Categories Edit</h3>
+
+    <div class="category">
+      <%= form_with url: admins_category_path, model: @category, local: true do |f| %>
+        <table class="table">
+          <td><strong><%= f.label :name, 'カテゴリ名' %></strong></td>
+          <td><%= f.text_field :name %></td>
+          <td><%= f.submit '更新' %></td>
+        </table>
+      <% end %>
+    </div>
+    
+</div>

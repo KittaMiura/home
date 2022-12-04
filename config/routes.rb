@@ -6,6 +6,9 @@ Rails.application.routes.draw do
 
   namespace :admins do
     root :to => "homes#top"
+    resources :posts
+    resources :categories, only: [:index, :create, :edit, :update]
+    delete 'categories/:id' => 'categories#destroy', as: 'destroy_category'
   end
 
   root to: 'homes#top'

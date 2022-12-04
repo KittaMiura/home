@@ -14,8 +14,6 @@
  *= require_self
  */
 
- @import "bootstrap";
- @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 
 * {
   margin: 0;
@@ -110,4 +108,28 @@ footer {
   font-size: 11px;
   font-family: 'Arial';
   text-align: center;
+}
+
+.category {
+  width: 650px;
+  padding: 0px 0% 0px 0%;
+  margin: 65px 0px 50px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 13px;
+  font-family: "Arial";
+  line-height: 185%;
+  text-align: justify;
+}
+
+.categories {
+  width: 650px;
+  padding: 0px 0% 0px 0%;
+  margin: 0px 0px 150px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 13px;
+  font-family: "Arial";
+  line-height: 185%;
+  text-align: justify;
 }

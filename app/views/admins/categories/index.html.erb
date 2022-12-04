@@ -1,0 +1,27 @@
+<div class="content">
+    <h3>Categories</h3>
+
+    <div class="category">
+      <%= form_with url: admins_categories_path, model: @category, local: true do |f| %>
+        <table class="table">
+          <td><strong><%= f.label :name, 'カテゴリ名' %></strong></td>
+          <td><%= f.text_field :name %></td>
+          <td><%= f.submit '新規登録' %></td>
+        </table>
+      <% end %>
+    </div>
+
+    <div class="categories">
+
+      <table class="table table-sm">
+        <% @categories.each do |category| %>
+          <tr>
+            <td><%= category.name %></td>
+            <td><%= button_to "編集", edit_admins_category_path(category.id), method: :get %></td>
+            <td><%= button_to '削除', admins_destroy_category_path(category.id), method: :delete %></td>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+
+</div>
