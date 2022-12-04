@@ -11,10 +11,13 @@ class HomesController < ApplicationController
 
   def works
   end
-  
+
+  def categories
+  end
+
   def links
   end
-  
+
   def contact
   end
 
