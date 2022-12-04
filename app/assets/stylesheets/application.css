@@ -24,11 +24,11 @@
 }
 
 header {
-  background-color: #ffff54;
   height: 130px;
   border-top-color: black;
   border-bottom: solid;
   border-bottom-width: 1px;
+  background: linear-gradient(to bottom right, #ffffff, 80%, #191970);
 }
 
 .pedro5th {
@@ -57,11 +57,10 @@ header {
 }
 
 body {
-  background-color: #54ff9e;
+  background-color: #dedede;
 }
 
 .content {
-  background-color: #0088cc;
   width: 670px;
   margin: 70px 0px 0px 0px;
   margin-right: auto;
@@ -73,8 +72,8 @@ a {
   display: block;
   width: 100%;
   text-decoration: none;
-  color: #555;
   padding-bottom: 5px;
+  color: black;
 }
 
 nav li:hover {
@@ -92,7 +91,6 @@ p.post {
   font-family: "Arial";
   line-height: 185%;
   text-align: justify;
-  background-color: #ff7733;
 }
 
 footer {
@@ -100,7 +98,10 @@ footer {
   border-top-color: black;
   border-top: solid;
   border-top-width: 1px;
-  background-color: #7436b3;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom right, #ffffff, 80%, #191970);
 }
 
 .footer {
